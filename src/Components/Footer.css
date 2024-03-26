@@ -1,0 +1,15 @@
+/* Footer.css */
+
+.footer-container {
+    background-color:lightblue;
+    color:white;
+    padding: 2rem 0;
+  }
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center; 
+  }

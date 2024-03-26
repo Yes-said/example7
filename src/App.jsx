@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Sidebar from './Components/Sidebar'
+import Footer from './Components/Footer'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,6 +15,7 @@ function App() {
       <Sidebar />
       <div className="content">
       </div>
+      <Footer/>
     </div>
   )
 }
