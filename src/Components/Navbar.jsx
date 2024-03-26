@@ -18,6 +18,28 @@ const Navbar = () => {
             </a>
             {/* Add more navbar items as needed */}
           </div>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More
+        </a>
+        
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            About
+          </a>
+          <a class="navbar-item is-selected">
+            View results
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <a class="navbar-item">
+            Raise concern
+          </a>
+          </div>
+          </div>
+
           <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
