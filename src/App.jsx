@@ -5,7 +5,6 @@ import './App.css'
 import Navbar from './Components/Navbar'
 import Home from './Components/Home'
 import Sidebar from './Components/Sidebar'
-import Box from './Components/Box'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -14,7 +13,6 @@ function App() {
       <Navbar />
       <Sidebar />
       <div className="content">
-        <Box />
       </div>
     </div>
   )

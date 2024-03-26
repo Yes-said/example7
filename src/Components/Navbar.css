@@ -36,6 +36,7 @@
   padding: 2rem; /* Add padding as needed */
   background-color:lightblue; /* Optional background color */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+  width: 100%; /* Make the navbar container full-width */
 }
 
 /* Navbar logo/image */
