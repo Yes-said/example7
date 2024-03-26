@@ -1,0 +1,77 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: lightblue;
+  }
+  
+
+  .navbar-item {
+    color: white;
+  }
+  
+  .navbar-item:hover {
+    background-color: #555;
+  }
+  
+  .navbar-dropdown {
+    background-color:gray;
+  }
+  
+
+  .navbar-dropdown a.navbar-item:hover {
+    background-color: #555;
+  }
+  .navbar-menu {
+    /* Responsive Navbar menu */
+    flex-grow: 1; /* Navbar menu grows to take available space */
+  }
+  
+
+  /* Navbar.css */
+
+/* Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Align items at both ends */
+  align-items: center; /* Vertically center items */
+  padding: 1rem; /* Add padding as needed */
+  background-color:lightblue; /* Optional background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional box shadow */
+}
+
+/* Navbar logo/image */
+.navbar-container img {
+  max-height: 3rem; /* Adjust logo height as needed */
+}
+
+/* Navbar menu */
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end; /* Align menu items to the right */
+  align-items: center; /* Vertically center items */
+}
+
+.navbar-item {
+  margin-right: 1rem; /* Add space between menu items */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column; /* Stack items vertically on small screens */
+  }
+
+  .navbar-menu {
+    justify-content: center; /* Center menu items on small screens */
+    margin-top: 1rem; /* Add space above menu items */
+  }
+
+  .navbar-item {
+    margin-right: 0; /* Remove right margin for menu items */
+    margin-bottom: 0.5rem; /* Add space below menu items */
+  }
+
+  .navbar-end {
+    margin-top: 1rem; /* Add space above the end section */
+  }
+}
